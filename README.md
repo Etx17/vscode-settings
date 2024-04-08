@@ -1,48 +1,5 @@
 # VS Code Settings
 
-## Extensions
-
-* Theme / Editor Experience
-  * [FontSize ShortCuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
-    * Change the font size with keyboard shortcuts.
-  * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-    * Nice / colorful icons for many different file types
-  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-    * Integrates ESLint JS
-  * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-    * Automatically format javascript, JSON, CSS, Sass
-  * [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-    * Auto generate TypeScript (and other languages) types from JSON data., and HTML files.
-  * [PostCSS Intellisense and Highlighting](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-postcss)
-    * Works better than the other more popular one of a similar name.
-  * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-    * Spell check markdown, comments and variable names.
-  * [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
-    * Makes TS errors more human readable.
-* Useful Tools
-  * [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-    * Auto generate TypeScript (and other languages) types from JSON data.
-  * [Code Snap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
-    * Take pictures of code with your VS Code Theme / Font settings.
-  * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
-    * Make HTTP requests from inside VS Code (similar to Postman / Insomnia).
-* Languages and Libraries
-  * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
-    * XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
-  * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-    * Intelligent Tailwind CSS tooling for VS Code.
-  * React
-    * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-      * Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
-    * [CSS in JS](https://marketplace.visualstudio.com/items?itemName=paulmolluzzo.convert-css-in-js)
-      * Get syntax highlighting when working with CSS in JS template strings.
-    * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
-      * Syntax highlighting for styled-components.
-   * [htmx-tags](https://marketplace.visualstudio.com/items?itemName=otovo-oss.htmx-tags)
-    * Provides HTMX tag completion in HTML files in VSCode
-  * [Markdown Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
-    * View Mermaid diagrams when previewing Markdown.
-
 ### Extension package names for easy install
 
 ```
