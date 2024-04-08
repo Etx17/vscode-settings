@@ -1,14 +1,5 @@
 # VS Code Settings
 
-# Font
-
-* [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
-
-## Themes/Color
-
-* [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
-  * See [`editor.tokenColorCustomizations`](#settings) in my VS Code settings for a few modifications I make to the theme.
-
 ## Extensions
 
 * Theme / Editor Experience
@@ -43,19 +34,11 @@
   * React
     * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
       * Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
-    * [CSS to JSS](https://marketplace.visualstudio.com/items?itemName=infarkt.css-to-jss)
-      * Convert CSS to JSS
     * [CSS in JS](https://marketplace.visualstudio.com/items?itemName=paulmolluzzo.convert-css-in-js)
       * Get syntax highlighting when working with CSS in JS template strings.
     * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
       * Syntax highlighting for styled-components.
-  * [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-    * Language support for Vue 3
-  * [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-    * Svelte language support for VS Code.
-  * [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
-    * Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.
-  * [htmx-tags](https://marketplace.visualstudio.com/items?itemName=otovo-oss.htmx-tags)
+   * [htmx-tags](https://marketplace.visualstudio.com/items?itemName=otovo-oss.htmx-tags)
     * Provides HTMX tag completion in HTML files in VSCode
   * [Markdown Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
     * View Mermaid diagrams when previewing Markdown.
@@ -63,29 +46,24 @@
 ### Extension package names for easy install
 
 ```
-nur.just-black
-fosshaas.fontsize-shortcuts
-vscode-icons-team.vscode-icons
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-quicktype.quicktype
-vunguyentuan.vscode-postcss
-streetsidesoftware.code-spell-checker
-yoavbls.pretty-ts-errors
-quicktype.quicktype
-adpyke.codesnap
-rangav.vscode-thunder-client
-DotJoshJohnson.xml
-bradlc.vscode-tailwindcss
-dsznajder.es7-react-js-snippets
-infarkt.css-to-jss
-paulmolluzzo.convert-css-in-js
-styled-components.vscode-styled-components
-Vue.volar
-svelte.svelte-vscode
-Prisma.prisma
-otovo-oss.htmx-tags
-bierner.markdown-mermaid
+Jupyter
+remote -ssh
+vs code great icons
+github copilot chat
+beautify
+dev containers
+docker
+es7 + React/redux/react native snippets
+eslint
+gitblame
+git graph
+gitlens
+indent rainbow
+mithril emmet
+past and indent
+prettier
+ruby lsp
+
 ```
 
 # Settings
