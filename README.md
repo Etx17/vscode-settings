@@ -70,135 +70,95 @@ ruby lsp
 
 ```json
 {
-  "codesnap.backgroundColor": "#000000",
-  "codesnap.containerPadding": "0px",
-  "codesnap.showWindowControls": false,
-  "codesnap.transparentBackground": true,
-  "cSpell.enabled": true,
-  "cSpell.enableFiletypes": [
-    "mdx"
-  ],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.detectIndentation": true,
-  "editor.fontFamily": "Anonymous Pro",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.formatOnPaste": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 0,
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "keyword.operator",
-          "punctuation.separator"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": [
-          "comment",
-          "comment.block"
-        ],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#F5F"
-        }
-      },
-      {
-        "name": "envKeys",
-        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-        "settings": {
-          "foreground": "#19354900"
-        }
-      }
-    ]
-  },
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "emmet.showAbbreviationSuggestions": false,
-  "eslint.enable": true,
-  "eslint.validate": [
-    "vue",
-    "react",
-    "typescript",
-    "html",
-    "javascript"
-  ],
-  "explorer.openEditors.visible": 1,
-  "extensions.ignoreRecommendations": true,
-  "files.autoSave": "onWindowChange",
-  "git.autofetch": true,
-  "git.openRepositoryInParentFolders": "never",
-  "markdown.preview.fontSize": 36,
-  "screencastMode.keyboardOptions": {
-    "showCommandGroups": false,
-    "showCommands": false,
-    "showKeybindings": true,
-    "showKeys": false,
-    "showSingleEditorCursorMoves": true
-  },
-  "search.exclude": {
-    "**/*.code-search": true,
-    "**/bower_components": true,
-    "**/node_modules": true
-  },
-  "search.useIgnoreFiles": false,
-  "svelte.enable-ts-plugin": true,
-  "terminal.integrated.fontSize": 14,
-  "vsicons.dontShowNewVersionMessage": true,
-  "window.zoomLevel": 4,
-  "workbench.colorTheme": "Just Black",
-  "workbench.editor.labelFormat": "medium",
-  "workbench.editor.showTabs": "none",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+    "[python]":
+    {
+        "editor.bracketPairColorization.enabled": false,
+        "editor.guides.bracketPairs": false,
+        "editor.tabSize": 4
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.detectIndentation": false,
+    "editor.fontSize": 14,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderControlCharacters": true,
+    "editor.linkedEditing": true,
+    "editor.rulers":
+    [
+        80,
+        120
+    ],
+    "editor.showFoldingControls": "always",
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2,
+    "emmet.includeLanguages":
+    {
+        "erb": "html"
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDelete": false,
+    "files.exclude":
+    {
+        "**/.DS_Store": true,
+        "**/.egg-info": true,
+        "**/.git": true,
+        ".asset-cache": true,
+        ".bundle": true,
+        ".ipynb_checkpoints": true,
+        ".pytest_cache": true,
+        ".sass-cache": true,
+        ".svn": true,
+        "__pycache__": true,
+        "_site": true,
+        "build": true,
+        "coverage": true,
+        "dist": true,
+        "log": true,
+        "node_modules": true,
+        "public/packs": true,
+        "tmp": true
+    },
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude":
+    {
+        "**/audits/**": true,
+        "**/coverage/**": true,
+        "**/log/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/vendor/**": true
+    },
+    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "python.formatting.provider": "yapf",
+    "python.terminal.activateEnvironment": false,
+    "ruby.lint":
+    {
+        "rubocop": true
+    },
+    "telemetry.telemetryLevel": "off",
+    "window.restoreWindows": "none",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.statusBar.visible": false,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.accessibilitySupport": "off",
+    "editor.inlineSuggest.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "files.autoSave": "afterDelay",
+    "window.commandCenter": true,
+    "zenMode.hideStatusBar": false,
+    "editor.lineHeight": 0
 }
+
 ```
 
 # Keybindings
