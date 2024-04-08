@@ -20,6 +20,8 @@ mithril emmet
 past and indent
 prettier
 ruby lsp
+fontsize shortcust
+thunder client
 
 ```
 
